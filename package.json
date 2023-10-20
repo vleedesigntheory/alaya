@@ -1,0 +1,45 @@
+{
+  "name": "alaya",
+  "version": "0.0.1",
+  "description": "A Modern Rich Text Editor",
+  "main": "dist/alaya.cjs.js",
+  "module": "dist/alaya.esm.js",
+  "unpkg": "dist/alaya.global.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "cross-env NODE_ENV=dev rollup -wc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vleedesigntheory/alaya.git"
+  },
+  "keywords": [
+    "editor",
+    "rich text",
+    "wysiwyg"
+  ],
+  "author": "we452366",
+  "contributors": [
+    "veeui"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.15",
+    "postcss": "^8.4.21",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/vleedesigntheory/alaya/issues"
+  },
+  "homepage": "https://github.com/vleedesigntheory/alaya#readme"
+}
